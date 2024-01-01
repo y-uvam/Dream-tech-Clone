@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bar{
+    background-color: rgba(165, 42, 42, 0.92);
+    height: auto;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+.bar button{
+    background-color: red;
+    border: 0;
+    color: white;
+    padding: 5px;
+    margin-left: 500px;
+    height: 100%;
+    width: max-content;
+    text-align: center;
+}
+.bar div{
+    margin-left: 100px;
+}
+.navbar{
+    display: flex;
+    padding: 15px;
+    height: auto;
+    background-color: beige;
+}
+ul{
+    display: flex;
+    margin-left: 400px;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+}
+ul select{
+    margin-left: 30px;
+    color: black;
+    height: 30px;
+    border-radius: 10px;
+}
+.logo{
+    margin-left: 100px;
+    font-weight: bolder;
+}
+main{
+    position: relative;
+}
+.part1{
+
+    background-image: url("/images.jfif");
+    height: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: rgb(226, 223, 223);
+    text-shadow: black;
+    font-family: fantasy;
+    position: relative;
+}
+.text{
+    position: absolute;
+        margin-top: 100px;
+        margin-left: 200px;
+}
+.text button{
+    background-color: red;
+    border: 0;
+    color: white;
+    padding: 5px;
+    margin-left: 0px;
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+.card1{
+    height: 300px;
+    width: 23%;
+    background-color: red;
+    border-radius: 15px;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 20px 30px 20px black;
+}
+.card2{
+    height: 300px;
+    width: 18%;
+    background-color: rgb(251, 249, 249);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 15px 20px 20px black;
+
+}
+.card3{
+    height: 300px;
+    width: 18%;
+    background-color: rgb(251, 249, 249);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 15px 20px 20px black;
+
+}
+.card4{
+    height: 300px;
+    width: 18%;
+    background-color: rgb(251, 249, 249);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 15px 20px 20px black;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+    position: absolute;
+    margin-top: -50px;
+}
+.card1 h1{
+    margin-top: 20px;
+    text-align: center;
+}
+.card1 div{
+    margin-top: 20px;
+    padding: 20px;
+}
+.card2 h2{
+    margin-top: 30px;
+    text-align: center;
+}
+.card2 div{
+    margin-top: 20px;
+    padding: 20px;
+}
+.card3 h2{
+    margin-top: 30px;
+    text-align: center;
+}
+.card3 div{
+    margin-top: 20px;
+    padding: 20px;
+}
+.card4 h2{
+    margin-top: 30px;
+    text-align: center;
+}
+.card4 div{
+    margin-top: 20px;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(250, 250, 148);
+    margin-top: 400px;
+    padding: 20px;
+    position: relative;
+    height: 300px;
+    gap: 20px;
+}
+.f1{
+    height: 200px;
+    width: 30%;
+    position: absolute;
+}
+.f2{
+    height: 200px;
+    width: 30%;
+    position: absolute;
+    margin-left: 40%;
+}
+.f3{
+    height: 200px;
+    width: 30%;
+    margin-left: 65%;
+    position: absolute;
+}
+.f2 ul{
+    /* display: flex; */
+    margin-left: 0px;
+    flex-direction: column;
+    list-style: disc;
+}
+.f2 ul a{
+    text-decoration: none;
+    margin-left: 0px;
+    color: black;
+}
+.f2 ul select{
+    margin-left: 0px;
+    color: black;
+    height: 30px;
+    border-radius: 10px;
+}
+p{
+    font-weight: bolder;
+}
+.search{
+    background-color: red;
+    border: 0;
+    color: white;
+    padding: 5px;
+    margin-left: 0px;
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    border-radius: 10px;
+}
+input{
+    height: 40px;
+    width: 250px;
+    padding: 10px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.tabs a:hover{
+    background-color: rgb(113, 113, 113);
+    /* color: white; */
+    border-radius: 10px;
+   padding: 10px;
+   border: 2px solid black;
+}
